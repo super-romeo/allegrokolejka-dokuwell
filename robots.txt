@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://allegrokolejka.dokufile.com/sitemap.xml
