@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Dla sprzedawców na allegro.pl: wiadomości, dyskusje i reklamacje ze wszystkich kont w jednej kolejce, od najbliższego terminu Allegro.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -73,38 +77,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Kolejka Allegro</a></div>
-  <nav class="top"><a href="#co" data-ev="click_nav_co">Co dostajesz</a><a href="price.html" data-ev="click_nav_cena">Cena</a><a href="#przyklad" data-ev="click_nav_przyklad">Przykład</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Kolejka Allegro</a>
+  <nav><a href="#co" data-ev="click_nav_co">Co dostajesz</a><a href="price.html" data-ev="click_nav_cena">Cena</a><a href="#przyklad" data-ev="click_nav_przyklad">Przykład</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Wszystkie wiadomości, dyskusje i reklamacje z Allegro w jednej kolejce — od najbliższego terminu</h1>
-    <p class="sub">Dla sprzedawców z jednym lub kilkoma kontami na allegro.pl: pytania kupujących, dyskusje i reklamacje trafiają do jednej kolejki, ułożonej według terminu odpowiedzi, a Ty odpowiadasz po kolei, zanim minie czas wyznaczony przez Allegro.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Tego potrzebuję</a>
-    <p class="cta-note">Usługa w przygotowaniu · Nie pobieramy płatności na stronie</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Dla sprzedawców z kontami na polskim Allegro</p>
+      <h1 class="rise" style="--i:1" data-len="long">Wszystkie wiadomości, dyskusje i reklamacje z Allegro w jednej kolejce&nbsp;<span class="soft">— od najbliższego terminu</span></h1>
+      <p class="rise" style="--i:2">Dla sprzedawców z jednym lub kilkoma kontami na allegro.pl: pytania kupujących, dyskusje i reklamacje trafiają do jednej kolejki, ułożonej według terminu odpowiedzi, a Ty odpowiadasz po kolei, zanim minie czas wyznaczony przez Allegro.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Tego potrzebuję</a>
+      <p class="meta rise" style="--i:4">Usługa w przygotowaniu · Nie pobieramy płatności na stronie</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" stroke="#dde2ea" stroke-width="3" fill="#ffffff" /><text x="120" y="165" font-size="36" font-weight="600" fill="#0a1524">Jedna kolejka</text><line x1="80" y1="210" x2="1120" y2="210" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="255" width="48" height="48" rx="8" fill="#12397a" /><rect x="200" y="267" width="260" height="24" rx="12" fill="#dde2ea" /><rect x="130" y="350" width="48" height="48" rx="8" fill="#dfe8f7" /><rect x="200" y="362" width="340" height="24" rx="12" fill="#dde2ea" /><rect x="130" y="445" width="48" height="48" rx="8" fill="#dfe8f7" /><rect x="200" y="457" width="220" height="24" rx="12" fill="#dde2ea" /><rect x="130" y="540" width="48" height="48" rx="8" fill="#dfe8f7" /><rect x="200" y="552" width="300" height="24" rx="12" fill="#dde2ea" /><rect x="680" y="250" width="390" height="420" rx="20" fill="#dfe8f7" /><text x="710" y="325" font-size="30" font-weight="600" fill="#0a1524">najbliższego terminu</text><rect x="720" y="370" width="310" height="52" rx="12" fill="#12397a" /><rect x="720" y="438" width="310" height="52" rx="12" stroke="#dde2ea" stroke-width="2" fill="#ffffff" /><rect x="720" y="506" width="310" height="52" rx="12" stroke="#dde2ea" stroke-width="2" fill="#ffffff" /><rect x="720" y="574" width="310" height="52" rx="12" fill="#dfe8f7" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Dla</dt><dd>Sprzedawców z kontami</dd></div>
+      <div><dt>Zbiera</dt><dd>Wszystkie sprawy w jednej kolejce</dd></div>
+      <div><dt>Działa</dt><dd>W przeglądarce i na telefonie</dd></div>
+      <div><dt>Usługa</dt><dd>Jest w przygotowaniu</dd></div>
+    </dl>
+  </section>
 
   <section id="co" data-view="features_view">
-    <h2>Co dostajesz</h2>
-    <div class="grid">
-      <div class="card"><b>Jedna kolejka</b><span>Wiadomości, dyskusje i reklamacje ze wszystkich kont w jednym miejscu.</span><br><a class="btn" href="price.html" data-ev="feature_kolejka">Tego potrzebuję</a></div>
-      <div class="card"><b>Według terminu</b><span>Sprawy ułożone od tej, której termin mija najwcześniej.</span><br><a class="btn" href="price.html" data-ev="feature_terminy">Tego potrzebuję</a></div>
-      <div class="card"><b>Szablony odpowiedzi</b><span>Gotowe odpowiedzi na najczęstsze pytania, z danymi zamówienia.</span><br><a class="btn" href="price.html" data-ev="feature_szablony">Tego potrzebuję</a></div>
-      <div class="card"><b>Praca zespołu</b><span>Sprawy przypisane do osób, bez dwóch odpowiedzi na jedno pytanie.</span><br><a class="btn" href="price.html" data-ev="feature_zespol">Tego potrzebuję</a></div>
+    <div class="stack"><h2>Co dostajesz</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="70" width="660" height="460" rx="22" stroke="#dde2ea" stroke-width="3" fill="#ffffff" /><text x="110" y="155" font-size="32" font-weight="600" fill="#0a1524">Jedna kolejka</text><rect x="150" y="210" width="500" height="64" rx="16" stroke="#dde2ea" stroke-width="3" fill="#ffffff" /><rect x="150" y="295" width="500" height="64" rx="16" fill="#dfe8f7" /><rect x="150" y="380" width="500" height="64" rx="16" fill="#12397a" /></svg></div>
+        <h3>Jedna kolejka</h3><p>Wiadomości, dyskusje i reklamacje ze wszystkich kont w jednym miejscu.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_kolejka">Tego potrzebuję</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="70" width="660" height="460" rx="22" stroke="#dde2ea" stroke-width="3" fill="#ffffff" /><text x="110" y="155" font-size="32" font-weight="600" fill="#0a1524">Według terminu</text><line x1="130" y1="320" x2="670" y2="320" stroke="#dde2ea" stroke-width="4" /><rect x="150" y="294" width="140" height="52" rx="26" stroke="#dde2ea" stroke-width="2" fill="#ffffff" /><rect x="310" y="294" width="150" height="52" rx="26" fill="#dfe8f7" /><rect x="480" y="294" width="170" height="52" rx="26" fill="#12397a" /></svg></div>
+        <h3>Według terminu</h3><p>Sprawy ułożone od tej, której termin mija najwcześniej.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_terminy">Tego potrzebuję</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="70" width="660" height="460" rx="22" stroke="#dde2ea" stroke-width="3" fill="#ffffff" /><text x="110" y="155" font-size="32" font-weight="600" fill="#0a1524">Szablony odpowiedzi</text><rect x="145" y="200" width="190" height="280" rx="28" stroke="#dde2ea" stroke-width="3" fill="#ffffff" /><rect x="200" y="216" width="80" height="12" rx="6" fill="#dde2ea" /><rect x="400" y="250" width="250" height="100" rx="16" fill="#dfe8f7" /><polygon points="400,300 368,322 400,334" fill="#dfe8f7" /><rect x="422" y="276" width="180" height="16" rx="8" fill="#ffffff" /><rect x="422" y="306" width="120" height="16" rx="8" fill="#b9c3d2" /><rect x="400" y="380" width="170" height="48" rx="24" fill="#12397a" /></svg></div>
+        <h3>Szablony odpowiedzi</h3><p>Gotowe odpowiedzi na najczęstsze pytania, z danymi zamówienia.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_szablony">Tego potrzebuję</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="70" width="660" height="460" rx="22" stroke="#dde2ea" stroke-width="3" fill="#ffffff" /><text x="110" y="155" font-size="32" font-weight="600" fill="#0a1524">Praca zespołu</text><rect x="120" y="210" width="240" height="270" rx="12" stroke="#dde2ea" stroke-width="3" fill="#ffffff" /><rect x="450" y="210" width="230" height="270" rx="12" stroke="#dde2ea" stroke-width="3" fill="#ffffff" /><polygon points="385,330 430,305 430,355" fill="#12397a" /><rect x="148" y="260" width="160" height="18" rx="9" fill="#dde2ea" /><rect x="478" y="260" width="160" height="18" rx="9" fill="#b9c3d2" /><rect x="148" y="318" width="130" height="18" rx="9" fill="#dde2ea" /><rect x="478" y="318" width="130" height="18" rx="9" fill="#b9c3d2" /><rect x="148" y="376" width="170" height="18" rx="9" fill="#dde2ea" /><rect x="478" y="376" width="170" height="18" rx="9" fill="#b9c3d2" /></svg></div>
+        <h3>Praca zespołu</h3><p>Sprawy przypisane do osób, bez dwóch odpowiedzi na jedno pytanie.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_zespol">Tego potrzebuję</a>
+      </article>
     </div>
   </section>
 
-  <section id="przyklad" data-view="example_view">
-    <h2>Przykład (dane fikcyjne)</h2>
-    <p class="fine">Sklep z elektroniką na dwóch kontach Allegro, 300 zamówień tygodniowo. Rano kolejka pokazuje 27 spraw: na górze reklamacja, której termin mija za 4 godziny, potem dyskusja otwarta wczoraj, dalej pytania o dostawę. Pracownica odpowiada po kolei, a reklamacja jest załatwiona przed terminem.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Wybierz pakiet</a>
+  <section id="przyklad" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Przykład</h2>
+      <p>Sklep z elektroniką na dwóch kontach Allegro, 300 zamówień tygodniowo. Rano kolejka pokazuje 27 spraw: na górze reklamacja, której termin mija za 4 godziny, potem dyskusja otwarta wczoraj, dalej pytania o dostawę. Pracownica odpowiada po kolei, a reklamacja jest załatwiona przed terminem.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Wybierz pakiet</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="200" y1="150" x2="1000" y2="150" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="600" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="960" cy="150" r="22" fill="#12397a" /><rect x="120" y="240" width="960" height="480" rx="24" stroke="#dde2ea" stroke-width="3" fill="#ffffff" /><text x="170" y="320" font-size="36" font-weight="600" fill="#0a1524">Przykład</text><text x="170" y="410" font-size="32" fill="#566174">300 zamówień</text><text x="170" y="490" font-size="32" fill="#566174">27 spraw</text><text x="170" y="570" font-size="32" fill="#566174">4 godziny</text><text x="170" y="650" font-size="32" fill="#566174">przed terminem</text></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Jak to działa</h2>
-    <p>Sprzedawca na Allegro dostaje codziennie wiadomości od kupujących, dyskusje otwarte w sprawie zamówień i reklamacje. Każda z tych spraw ma swój termin odpowiedzi wyznaczony przez Allegro, a spóźniona odpowiedź może kosztować ocenę, pozycję w wynikach albo zwrot pieniędzy kupującemu.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Jak to działa</h2></div>
+    <div class="stack">
+      <p>Sprzedawca na Allegro dostaje codziennie wiadomości od kupujących, dyskusje otwarte w sprawie zamówień i reklamacje. Każda z tych spraw ma swój termin odpowiedzi wyznaczony przez Allegro, a spóźniona odpowiedź może kosztować ocenę, pozycję w wynikach albo zwrot pieniędzy kupującemu.</p>
     <p>Centrum wiadomości Allegro pokazuje rozmowy, ale przy kilkudziesięciu sprawach dziennie i kilku kontach łatwo przeoczyć tę, której termin mija za kilka godzin. Sprzedawca przełącza się między kontami, przegląda listy i odpowiada na to, co akurat widzi, a nie na to, co jest najpilniejsze.</p>
     <p>Serwis zbiera wszystkie sprawy w jednej kolejce. Pytania z Centrum wiadomości, dyskusje i reklamacje ze wszystkich Twoich kont na allegro.pl trafiają w jedno miejsce, każda z informacją o koncie, zamówieniu i kupującym.</p>
     <p>Kolejka jest ułożona według terminów: na górze sprawa, której termin odpowiedzi mija najwcześniej, niżej kolejne. Sprawy bliskie przekroczenia terminu są wyraźnie oznaczone, a serwis przypomina o nich, zanim będzie za późno.</p>
@@ -117,31 +151,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Podłączenie zajmuje kilka minut: autoryzujesz swoje konta Allegro, a sprawy z ostatnich dni pojawiają się w kolejce. Serwis działa w przeglądarce i na telefonie, bez instalacji.</p>
     <p>Serwis jest przeznaczony dla sprzedawców z kontami na polskim Allegro, od jednej osoby do małego zespołu obsługi klienta. Jest w przygotowaniu: najpierw sprawdzamy, czy sprzedawcy go potrzebują.</p>
     <p>Serwis nie jest częścią Allegro ani z nim powiązany; za odpowiedzi kupującym i rozpatrzenie reklamacji odpowiada sprzedawca.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Pytania i odpowiedzi</h2>
-    <h3>Jakie sprawy trafiają do kolejki?</h3>
-    <p>Wiadomości z Centrum wiadomości, dyskusje i reklamacje ze wszystkich Twoich kont na allegro.pl.</p>
-    <h3>Jak ułożona jest kolejka?</h3>
-    <p>Według terminu odpowiedzi wyznaczonego przez Allegro — od sprawy, której termin mija najwcześniej.</p>
-    <h3>Czy mogę obsługiwać kilka kont?</h3>
-    <p>Tak, wszystkie konta trafiają do jednej kolejki.</p>
-    <h3>Czy serwis jest częścią Allegro?</h3>
-    <p>Nie. To osobny serwis dla sprzedawców; odpowiedzi trafiają do kupujących przez Allegro.</p>
-    <h3>Czy mogę już korzystać?</h3>
-    <p>Jeszcze nie. Serwis jest w przygotowaniu i sprawdzamy, czy sprzedawcy go potrzebują.</p>
+    <div class="stack"><h2>Pytania i odpowiedzi</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Jakie sprawy trafiają do kolejki?</h3><p>Wiadomości z Centrum wiadomości, dyskusje i reklamacje ze wszystkich Twoich kont na allegro.pl.</p></div>
+      <div class="split flip"><h3>Jak ułożona jest kolejka?</h3><p>Według terminu odpowiedzi wyznaczonego przez Allegro — od sprawy, której termin mija najwcześniej.</p></div>
+      <div class="split flip"><h3>Czy mogę obsługiwać kilka kont?</h3><p>Tak, wszystkie konta trafiają do jednej kolejki.</p></div>
+      <div class="split flip"><h3>Czy serwis jest częścią Allegro?</h3><p>Nie. To osobny serwis dla sprzedawców; odpowiedzi trafiają do kupujących przez Allegro.</p></div>
+      <div class="split flip"><h3>Czy mogę już korzystać?</h3><p>Jeszcze nie. Serwis jest w przygotowaniu i sprawdzamy, czy sprzedawcy go potrzebują.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Podłącz swoje konto Allegro</h2>
-    <p><label>Zamówienia tygodniowo<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— wybierz —</option><option>Do 50</option><option>50–200</option><option>200–1000</option><option>Ponad 1000</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Podłącz</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Podłącz swoje konto Allegro</h2>
+    </div>
+    <div class="tile stack">
+      <label>Zamówienia tygodniowo<select data-ev-focus="form_start"><option value="">— wybierz —</option><option>Do 50</option><option>50–200</option><option>200–1000</option><option>Ponad 1000</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Podłącz</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Kolejka Allegro</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Polityka prywatności</a></p>
-  <p class="muted">Serwis do obsługi wiadomości sprzedawcy. Nie jest częścią Allegro; za odpowiedzi i reklamacje odpowiada sprzedawca.</p>
+  <p>Serwis do obsługi wiadomości sprzedawcy. Nie jest częścią Allegro; za odpowiedzi i reklamacje odpowiada sprzedawca.</p>
 </div></footer>
 
 </body>
